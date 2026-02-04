@@ -27,15 +27,6 @@ body {
     sans-serif;
 }
 
-.hero {
-  height: 100vh;
-  width: 100%;
-  background: url(https://www.mintlify.com/hero/bg-dark.svg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
 
 .header {
   width: 100%;
@@ -118,4 +109,16 @@ body {
 }
 .btn-box a:nth-child(1) {
  
+}
+
+/*Hero section*/
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: url(https://www.mintlify.com/hero/bg-dark.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
