@@ -27,7 +27,6 @@ body {
     sans-serif;
 }
 
-
 .header {
   width: 100%;
   position: fixed;
@@ -108,7 +107,6 @@ body {
   color: #08090a;
 }
 .btn-box a:nth-child(1) {
- 
 }
 
 /*Hero section*/
@@ -130,7 +128,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-  align-items:end;
+  align-items: end;
 }
 
 .hero-container .hero-container-wrapper {
@@ -144,7 +142,7 @@ body {
   width: 80%;
   position: relative;
   margin: auto;
-  overflow:hidden;
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -153,28 +151,28 @@ body {
 
 .container-child .top-box {
   position: relative;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   padding: 3px 9px;
   border-radius: 999px;
-  font-size: .88rem;
+  font-size: 0.88rem;
   color: var(--color-text-main);
   background: rgba(255, 255, 255, 0.2);
-  gap:.5rem;
+  gap: 0.5rem;
   width: 63%;
   cursor: pointer;
 }
 
 .container-child .top-box:hover {
-  background:rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .top-box .new-btn {
   padding: 4px 16px;
   border-radius: 999px;
-  background: #0C8C5E;
+  background: #0c8c5e;
 }
 
 .top-box .top-box-icon-container {
@@ -189,7 +187,7 @@ body {
 .top-box-text-warpper {
   display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
   height: 100%;
 }
 
@@ -211,7 +209,7 @@ body {
   color: var(--color-text-main);
 }
 
-.bottom-box .hero-txt  {
+.bottom-box .hero-txt {
   font-size: 3rem;
 }
 
@@ -266,7 +264,7 @@ body {
   font-weight: 500;
 }
 
-/** Void page*/ 
+/** Void page*/
 
 .void {
   height: 60vh;
@@ -289,3 +287,40 @@ body {
 }
 
 /*Compnay repersent*/
+
+.represent-company {
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.represent-company .plan-grid {
+  width: 70%;
+  height: 85%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.plan-grid .company-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.company-img {
+  height: 1.7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
